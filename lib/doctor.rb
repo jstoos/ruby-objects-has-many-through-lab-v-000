@@ -12,5 +12,11 @@ attr_accessor :appointments, :appointment
     @appointments << appointment
   end
 
-end
+  def appointments
+    @appointments
+  end
 
+  def patients
+  end
+
+end
