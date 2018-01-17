@@ -6,7 +6,7 @@ class Genre
     @songs = []
   end
 
-  def self.add_song(song_instance)
+  def add_song(song_instance)
     song_instance.genre = self
     @songs << song
   end
