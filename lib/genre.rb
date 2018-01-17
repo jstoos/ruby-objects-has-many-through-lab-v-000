@@ -6,9 +6,9 @@ class Genre
     @songs = []
   end
 
-  def self.add_song(song)
-    @song = song
-    g = Genre.new(song.name)
+  def self.add_song(song_instance)
+    @song = song_instance
+    g = Genre.new(self.song.name)
     @songs << song
   end
 
