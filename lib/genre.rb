@@ -18,7 +18,7 @@ class Genre
 
   def artists
     @songs.collect do |instance|
-      instance.genre
+      instance.artist
     end
   end
 
