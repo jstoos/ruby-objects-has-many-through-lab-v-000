@@ -8,6 +8,7 @@ attr_accessor :appointments, :appointment, :patient, :name
   end
 
   def add_appointment(appointment)
+    @appointment = appointment
     appointment.doctor = self
     @appointments << appointment
   end
