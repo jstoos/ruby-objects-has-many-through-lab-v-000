@@ -7,7 +7,7 @@ class Genre
   end
 
   def self.add_song(song)
-    g = genre.new(song.name)
+    g = Genre.new(song.name)
     g.song = song
     @songs << song
   end
