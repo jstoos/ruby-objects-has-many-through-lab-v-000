@@ -17,6 +17,9 @@ class Genre
   end
 
   def artists
+    @songs.collect do |instance|
+      instance.genre
+    end
   end
 
 end
